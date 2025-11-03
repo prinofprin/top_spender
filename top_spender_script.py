@@ -3,8 +3,8 @@ import random
 from datetime import datetime, timedelta
 
 
-input_file_path = r"C:\Users\prino\Desktop\code\cyptro_2\Primo\generated_file.csv"
-output_file_path = r"C:\Users\prino\Desktop\code\cyptro_2\Primo\result.csv"
+input_file_path = r"C:\Users\generated_file.csv"
+output_file_path = r"C:\Users\prino\result.csv"
 
 df = pd.read_csv(input_file_path)
 
@@ -30,6 +30,7 @@ top_spenders = (
 top_spenders.to_csv(output_file_path, index=False)
 
 print("done")
+
 
 
 
